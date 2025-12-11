@@ -5,7 +5,7 @@ on: [push, pull_request]  # Run this workflow on push and pull requests
 jobs:
   # 1) Call the reusable build workflow (runs unit tests)
   build:
-    uses: ./.github/workflows/python-build.yml
+    uses: ./.github/workflows/python build.yml
     with:
       python-version: "3.11"   # Pass Python version to reusable workflow
 
